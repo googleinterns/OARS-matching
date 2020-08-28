@@ -16,6 +16,11 @@ Let's call this problem “Online Allocation of Reusable Services” (OARS). The
 
 The question we ask is what competitive ratio can one achieve in this setting.
 
+# Compile
+
+Compile using the following command:
+    g++ ranking-ort.cpp -std=c++14 -lortools -pthread -O2
+
 # Source code headers
 
 Every file containing source code must include copyright and license
